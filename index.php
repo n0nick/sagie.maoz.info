@@ -18,7 +18,7 @@ $photo = getPhoto();
   <link rel="stylesheet" type="text/css" href="styles/reset.css" media="screen" />
   <link rel="stylesheet" type="text/css" href="styles/rockstar.css" media="screen" />
 
-  <script type="text/javascript" src="scripts/jquery.min.js"></script>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.0/jquery.min.js"></script>
   <script type="text/javascript" src="scripts/rocknroll.js"></script>
 
   <style type="text/css">
