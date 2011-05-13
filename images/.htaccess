@@ -1,0 +1,7 @@
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresByType image/gif A7776000
+ExpiresByType image/png A7776000
+ExpiresByType image/jpg A7776000
+ExpiresByType image/jpeg A7776000
+</IfModule>
