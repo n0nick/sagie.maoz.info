@@ -66,7 +66,9 @@ $photo = getPhoto();
       Random <var><?= FLICKR_TAG ?></var>-tagged background pictures
       from <a href="http://flickr.com/">Flickr</a>.<br/>
       <a href="http://www.flickr.com/photos/<?= $photo['owner'] ?>/<?= $photo['id'] ?>/" rel="about">This one</a> is by <a rel="cc:attributionURL" href="http://www.flickr.com/photos/<?= $photo['owner'] ?>/"><?= $photo['ownername'] ?></a>
-      with <a rel="license" href="<?= licenseUrl($photo['license']) ?>">license</a>.</footer>
+      with <a rel="license" href="<?= licenseUrl($photo['license']) ?>">license</a>.<br/>
+      Feel free to play with the <a href="https://github.com/n0nick/sagie.maoz.info">source code for this site</a>.
+  </footer>
 
   <script type="text/javascript">
     //<![CDATA[
