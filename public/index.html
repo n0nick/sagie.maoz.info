@@ -1,80 +1,51 @@
 <!DOCTYPE html>
-
-<html lang="en">
-
-<head>
-  <title>Sagie Maoz</title>
-
-  <meta charset="utf-8" />
-
-  <link rel="openid.server" href="https://indieauth.com/openid" />
-  <link rel="openid.delegate" href="http://sagie.maoz.info" />
-
-  <link rel="profile" href="http://microformats.org/profile/hcard" />
-  <link rel="stylesheet" type="text/css" href="styles/reset.css" media="screen" />
-  <link rel="stylesheet" type="text/css" href="styles/rockstar.css" media="screen" />
-
-  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
-  <script type="text/javascript" src="scripts/jquery.backstretch.min.js"></script>
-  <script type="text/javascript" src="scripts/rocknroll.js"></script>
-</head>
-
-<body>
-
-  <section id="card" class="box vcard">
-
-    <article id="me">
-      <header id="hello">
-        <h1><a class="url fn" href="http://sagie.maoz.info/">Sagie Maoz</a></h1>
-        <h2 class="role">Internet Rockstar</h2>
-      </header>
-      <img src="http://sagie.maoz.info/images/me.png" class="photo" alt="Sagie Maoz" />
-    </article>
-
-    <aside>
-      <ul id="resume" class="foot">
-        <li><a href="http://www.linkedin.com/in/sagiemaoz">My Resume at LinkedIn</a></li>
-      </ul>
-
-      <ul id="links" class="foot">
-        <li><a rel="me" href="http://n0nick.net/lessthan3" title="lessthan3 (My personal Hebrew blog)">lessthan3</a></li>
-        <li><a rel="me" href="http://the.n0nick.net/" title="breadcrumbs:// (My crazy tumblelog)">breadcrumbs://</a></li>
-        <li><a rel="me" href="https://twitter.com/n0nick" title="I'm @n0nick on Twitter">twitter</a></li>
-        <li><a rel="me" href="https://github.com/n0nick" title="My Github profile">github</a></li>
-      </ul>
-
-      <ul id="contact" class="foot">
-        <li><a rel="me" class="email" href="&#109;&#x61;&#x69;&#x6c;&#x74;&#111;&#58;&#115;&#x61;&#x67;&#105;&#x65;&#x40;&#109;&#97;&#111;&#x7a;&#46;&#105;&#x6e;&#102;&#111;">&#115;&#x61;&#x67;&#105;&#x65;&#x40;&#109;&#97;&#111;&#x7a;&#46;&#105;&#x6e;&#102;&#111;</a></li>
-        <li class="tel"><a href="tel:+972-52-834-3339" rel="tel">+972.52.834.3339</a></li>
-      </ul>
-    </aside>
-
-  </section>
-
-  <footer id="bg_credit" class="box">
-    <!-- xmlns:cc="http://creativecommons.org/ns#" about="http://www.flickr.com/photos/26450716@N08/3429362199" -->
-      Random <var>rocknroll</var>-tagged background pictures
-      from <a href="http://flickr.com/">Flickr</a>.<br/>
-      <a href="http://www.flickr.com/photos/26450716@N08/3429362199" rel="about">This one</a> is by <a rel="cc:attributionURL" href="http://www.flickr.com/photos/jugonatural/">...ven y siente el RUIDO !</a>
-      with <a rel="license" href="http://creativecommons.org/licenses/by-nc-nd/2.0/deed.en">license</a>.<br/>
-      Feel free to play with the <a href="https://github.com/n0nick/sagie.maoz.info">source code for this page</a>.
-  </footer>
-
-  <script type="text/javascript">
-    //<![CDATA[
-    var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-    document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-    //]]>
-  </script>
-  <script type="text/javascript">
-    //<![CDATA[
-    try {
-      var pageTracker = _gat._getTracker("UA-10970756-1");
-      pageTracker._trackPageview();
-    } catch(err) {}
-    //]]>
-  </script>
-
-</body>
-
+<html>
+  <head>
+    <title>Sagie Maoz</title>
+    <link href="style.css" rel="stylesheet" />
+    <link rel="profile" href="http://microformats.org/profile/hcard" />
+    <link rel="openid.server" href="https://indieauth.com/openid" />
+    <link rel="openid.delegate" href="http://sagie.maoz.info" />
+  </head>
+  <body>
+    <main class="vcard">
+      <h1 class="fn">Sagie Maoz</h1>
+      <div class="details">
+        <ol>
+          <li>
+            <a rel="me" class="url" href="https://github.com/n0nick">
+              github
+            </a>
+          </li>
+          <li>
+            <a rel="me" class="url" href="http://n0nick.net/lessthan3">
+              lessthan3
+            </a>
+          </li>
+          <li>
+            <a rel="me" class="url" href="http://the.n0nick.net/">
+              breadcrumbs://
+            </a>
+          </li>
+        </ol>
+        <ol>
+          <li>
+            <a rel="me" class="url" href="https://twitter.com/n0nick">
+              @n0nick
+            </a>
+          </li>
+          <li>
+            <a rel="me" class="email" href="&#109;&#x61;&#x69;&#x6c;&#x74;&#111;&#58;&#115;&#x61;&#x67;&#105;&#x65;&#x40;&#109;&#97;&#111;&#x7a;&#46;&#105;&#x6e;&#102;&#111;">
+              &#115;&#x61;&#x67;&#105;&#x65;&#x40;&#109;&#97;&#111;&#x7a;&#46;&#105;&#x6e;&#102;&#111;
+            </a>
+          </li>
+          <li>
+            <a rel="me" class="tel" href="tel:+972-52-834-3339">
+              +972.52.834.3339
+            </a>
+          </li>
+        </ol>
+      </div>
+    </main>
+  </body>
 </html>
